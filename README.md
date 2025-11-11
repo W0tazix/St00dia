@@ -1,8 +1,3 @@
-<p align="center"> 
-  <br/>
-  <img src="/logo.png" alt="Matura Informatyka Wojciech" width="600"></a>
-  <br/>
-</p>
 
 > [!WARNING]
 > Work in progress!
