@@ -36,11 +36,11 @@
 	
 
     <div class="container">
-		<h1>📁 Wojciech Informatyka</h1>
+		<h1>📁 Strona robocza</h1>
         <h2>Przeglądarka plików</h2>
         <button id="back-button" onclick="goBack()">⬅ Wstecz</button>
         <ul id="file-list">Ładowanie...</ul>
-		<a href="https://github.com/W0tazix/Matura" target="_blank"
+		<a href="https://github.com/W0tazix/St00dia" target="_blank"
 		style="background-color: #24292f; color: white; padding: 12px 24px; font-size: 16px; font-weight: bold; text-decoration: none; border-radius: 6px; display: inline-flex; align-items: center; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: background-color 0.3s ease; border: none; ">
 		<i class="fab fa-github" style="margin-right: 10px; font-size: 20px;"></i> 
 		Mój GitHub
@@ -58,8 +58,8 @@
 
     <script>
         const repoOwner = "W0tazix";  
-        const repoName = "Matura";  
-        let currentPath = "matura informatyka";  
+        const repoName = "St00dia";  
+        let currentPath = "pliki";  
 
         const fileList = document.getElementById("file-list");
         const newsList = document.getElementById("news-list");
@@ -88,7 +88,7 @@
                 const files = await response.json();
                 fileList.innerHTML = "";
 
-                backButton.style.display = (path !== "matura informatyka") ? "block" : "none";
+                backButton.style.display = (path !== "pliki") ? "block" : "none";
 
                 files.forEach(file => {
                     const li = document.createElement("li");
@@ -161,7 +161,7 @@
         function goBack() {
             const pathParts = currentPath.split("/");
             pathParts.pop();
-            currentPath = pathParts.join("/") || "matura informatyka";
+            currentPath = pathParts.join("/") || "pliki";
             fetchFiles(currentPath);
         }
 
