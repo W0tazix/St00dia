@@ -23,9 +23,9 @@
 | Tematy                       | Stan               | Uwagi |
 |:-----------------------------|:------------------:|:------|
 | Zbiory                              | ⬜ Do zrobienia     |       |
-| Grupa                               | ⬜ Do zrobienia     |Aksjomaty grupy|
-| Ciało/Pierścienie                   | ⬜ Do zrobienia     |Aksjomaty|
-| Dzielenie wielomianów w pierścieniu | ⬜ Do zrobienia     |       |
+| Grupa i grupa abelowa               | ⬜ Do zrobienia     |⚠️Ważne!|
+| Ciało/Pierścienie                   | ⬜ Do zrobienia     |⚠️Ważne!|
+| Dzielenie wielomianów w pierścieniu | ⬜ Do zrobienia     |⚠️Ważne!|
 <hr>
 ## Permutacje
 
@@ -40,7 +40,7 @@
 | Wstęp do liczb zespolonych (co to jest?)       | ⬜ Do zrobienia     |       |
 | Powtórzyć funkcje trygonometryczne i pi        | ⬜ Do zrobienia     |       |
 | Powtórzyć równanie elipsy i równanie hiperboli | ⬜ Do zrobienia     |       |
-| Płaszczyzny zespolone                          | ⬜ Do zrobienia     |       |
+| Płaszczyzny zespolone                          | ⬜ Do zrobienia     |⚠️Ważne!|
 <hr>
 ## ✅ Macierze ✅
 
@@ -51,18 +51,48 @@
 | Wyznaczniki macierzy                                | ✅ Zrobione    	    |       |
 | Rząd macierzy                                       | ✅ Zrobione	        |Wymiar największej macierzy jednostkowej, lub też liczba schodków w macierzy schodkowej|
 | Powtórzyć symbol newtona                            | ✅ Zrobione	        |n po k = n!/k!·(n-k)!|
+| Grupa                                               | ⬜ Do zrobienia     |       |
 <hr>
 ## Układy równań
 
 | Tematy                       | Stan               | Uwagi |
 |:-----------------------------|:------------------:|:------|
 | Metoda Gaussa                | ⬜ Do zrobienia     |       |
-| Metoda Macierzowa            | ⬜ Do zrobienia     |       |
+| Metoda Macierzowa            | ✅ Zrobione	     |       |
 | Metoda Wyznacznikowa         | ⬜ Do zrobienia     |       |
 | Wzory Crammera               | ⬜ Do zrobienia     |       |
 <hr>
 
 # Notatki
+
+## Struktury Algebraiczne
+
+
+Aksjomaty grupy (X, #):
+
+- działanie musi być wewnętrzne
+
+- łączność (a#b)#c=a#(b#c)
+
+- element neutralny e#x=x#e=x
+
+- element odwrotny y#x=x#y=e
+
+- jeśli dodatkowo działanie jest przemienne to grupa jest abelowa a#b=b#a
+
+
+Aksjomaty pierścienia (X,⊕,⊙):
+
+- Zbiór jest grupą abelową
+
+- drugie działanie musi być łączne (a⊙b)⊙c=a⊙(b⊙c)
+
+- drugie działanie musi być rozdzielne względem pierwszego (a⊕b)⊙c=(a⊙c)⊕(b⊙c)
+
+- element neutralny pierwszego działania to zero
+
+- drugie działanie nie musi mieć elementu neutralnego, ale jeśli go ma to jest to 1 i taki pierścien to przemienny z 1
+
 
 ## Macierze
 
@@ -86,6 +116,7 @@ Jeśli:
 - rzA=rzM<n - układ nieoznaczony (nieskończenie wiele rozwiązań) (liczba parametrów rzA-n)
 
 Metoda Macierzowa - (można stosować gdy macierz kwadratowa i detA=/=0) X=A^-1·B
+
 
 # Zadania z pracy domowej
 
@@ -112,10 +143,10 @@ Metoda Macierzowa - (można stosować gdy macierz kwadratowa i detA=/=0) X=A^-1�
 | 15 str 79 | ✅ Zrobione      	  |       |
 | 18 str 82 | ✅ Zrobione      	  |       |
 | 23 str 84 | ✅ Zrobione      	  |       |
-| 4  str 94 | ⬜ Do zrobienia     |       |
-| 5  str 94 | ⬜ Do zrobienia     |       |
-| 1  str 93 | ⬜ Do zrobienia     |       |
-| 17 str 81 | ⬜ Do zrobienia     |       |
+| 4  str 94 | ✅ Zrobione      	  |       |
+| 5  str 94 | ⚠️Błędy             |dlaczego przykład d jest sprzeczny?|
+| 1  str 93 | ✅ Zrobione      	  |       |
+| 17 str 81 | ✅ Zrobione      	  |       |
 
 
 <!-- Tak się robi komentarz
