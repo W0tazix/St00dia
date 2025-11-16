@@ -23,8 +23,8 @@
 | Tematy                       | Stan               | Uwagi |
 |:-----------------------------|:------------------:|:------|
 | Zbiory                              | ⬜ Do zrobienia     |       |
-| Grupa i grupa abelowa               | ⬜ Do zrobienia     |⚠️Ważne!|
-| Ciało/Pierścienie                   | ⬜ Do zrobienia     |⚠️Ważne!|
+| Grupa i grupa abelowa               | ✅ Zrobione	        |⚠️Ważne!|
+| Ciało/Pierścienie                   | ✅ Zrobione	        |⚠️Ważne!|
 | Dzielenie wielomianów w pierścieniu | ⬜ Do zrobienia     |⚠️Ważne!|
 <hr>
 ## Permutacje
@@ -67,32 +67,19 @@
 
 ## Struktury Algebraiczne
 
-
 Aksjomaty grupy (X, #):
-
 - działanie musi być wewnętrzne
-
 - łączność (a#b)#c=a#(b#c)
-
 - element neutralny e#x=x#e=x
-
 - element odwrotny y#x=x#y=e
-
 - jeśli dodatkowo działanie jest przemienne to grupa jest abelowa a#b=b#a
 
-
 Aksjomaty pierścienia (X,⊕,⊙):
-
 - Zbiór jest grupą abelową
-
 - drugie działanie musi być łączne (a⊙b)⊙c=a⊙(b⊙c)
-
 - drugie działanie musi być rozdzielne względem pierwszego (a⊕b)⊙c=(a⊙c)⊕(b⊙c)
-
 - element neutralny pierwszego działania to zero
-
-- drugie działanie nie musi mieć elementu neutralnego, ale jeśli go ma to jest to 1 i taki pierścien to przemienny z 1
-
+- drugie działanie nie musi mieć elementu neutralnego, ale jeśli go ma to jest przemienny z 1
 
 ## Macierze
 
@@ -122,7 +109,7 @@ Metoda Macierzowa - (można stosować gdy macierz kwadratowa i detA=/=0) X=A^-1�
 
 | Nr zadania                   | Stan               | Uwagi |
 |:-----------------------------|:------------------:|:------|
-| 2  str 33 | ⬜ Do zrobienia     |       |
+| 2  str 33 | ✅ Zrobione      	  |       |
 | 3  str 33 | ⬜ Do zrobienia     |       |
 | 4  str 33 | ⬜ Do zrobienia     |       |
 | 8  str 47 | ⬜ Do zrobienia     |       |
