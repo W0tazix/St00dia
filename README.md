@@ -65,9 +65,13 @@
 ## Macierze
 
 Macierze to tak jakby współczynniki układów równań w tabeli dwuwymiarowej
+
 Działania na macierzach - dodawać i odejmować można tylko wtedy kiedy mają takie same wymiary, mnożenie jest możliwe wtedy kiedy liczba kolumn (najpierw wiersze potem kolumny) pierwszej macierzy jest równa liczbie wierszy drugiej i wtedy 1 element nowej macierzy to 1 wiersz pierwszej macierzy razy 1 kolumna drugiej a drugi element pierwszy wiersz pierwszej razy druga kolumna drugiej itd.
+
 Przekształcanie macierzy - macierze przekształcają się tak jak układy równań, można mnożyć wiersze przez liczby (jak dwie strony równania) i dodawać je do siebie
+
 Wyznacznik macierzy (rozwinięcie Laplace'a) WYZNACZNIKI PISZEMY Z "||" ZAMIAST "[]" - Jeśli mamy macierz 2x2 to wystarczy równanie a11*a22-a12*a21, jeśli jednak mamy 3x3 to bierzemy "pod kątem"liczby najpierw od lewej do prawej mnożymy wszystkie ze sobą na skos i dodajemy a potem to samo ale z minusem, jeśli jednak mamy powyżej 3x3 musimy użyć rozwinięcia Laplace'a, względem wiersza skreślamy wiersz który nam jest niepotrzebny dodajemy każdą liczbę tego wiersza pomnożoną przez -1 do potęgi i+j (nr wiersza i kolumny w których stoi liczba) i razy wyznacznik macierzy która zostaje po wykreśleniu wiersza i kolumny w których stoi Liczba
+
 Wyznacznik macierzy schodkowej = pomnożone przez siebie liczby z przekątnej
 
 # Zadania z pracy domowej
@@ -87,14 +91,13 @@ Wyznacznik macierzy schodkowej = pomnożone przez siebie liczby z przekątnej
 | 15 str 49 | ⬜ Do zrobienia     |       |
 | 16 str 49 | ⬜ Do zrobienia     |       |
 | 18 str 50 | ⬜ Do zrobienia     |       |
-| 4  str 77 | ⬜ Do zrobienia     |       |
-| 9  str 78 | ⬜ Do zrobienia     |       |
-| 11 str 78 | ⬜ Do zrobienia     |       |
-| 12 str 79 | ⬜ Do zrobienia     |       |
-| 15 str 79 | ⬜ Do zrobienia     |       |
-| 4  str 74 | ⬜ Do zrobienia     |       |
-| 18 str 82 | ⬜ Do zrobienia     |       |
-| 23 str 84 | ⬜ Do zrobienia     |       |
+| 4  str 74 | ⬜ Do zrobienia     |Nie wiem jak zrobić|
+| 9  str 78 | ⚠️Błędy             |Nie wiem jak zrobić podpunkty b i c|
+| 11 str 78 | ✅ Zrobione      	  |       |
+| 12 str 79 | ✅ Zrobione      	  |       |
+| 15 str 79 | ✅ Zrobione      	  |       |
+| 18 str 82 | ✅ Zrobione      	  |       |
+| 23 str 84 | ✅ Zrobione      	  |       |
 | 4  str 94 | ⬜ Do zrobienia     |       |
 | 5  str 94 | ⬜ Do zrobienia     |       |
 | 1  str 93 | ⬜ Do zrobienia     |       |
