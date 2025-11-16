@@ -42,7 +42,7 @@
 | Powtórzyć równanie elipsy i równanie hiperboli | ⬜ Do zrobienia     |       |
 | Płaszczyzny zespolone                          | ⬜ Do zrobienia     |       |
 <hr>
-## Macierze
+## ✅ Macierze ✅
 
 | Tematy                       | Stan               | Uwagi |
 |:-----------------------------|:------------------:|:------|
@@ -56,7 +56,7 @@
 
 | Tematy                       | Stan               | Uwagi |
 |:-----------------------------|:------------------:|:------|
-| Metoda macierzowa            | ⬜ Do zrobienia     |       |
+| Metoda Gaussa                | ⬜ Do zrobienia     |       |
 | Wzory crammera               | ⬜ Do zrobienia     |       |
 <hr>
 
@@ -73,6 +73,12 @@ Przekształcanie macierzy - macierze przekształcają się tak jak układy równ
 Wyznacznik macierzy (rozwinięcie Laplace'a) WYZNACZNIKI PISZEMY Z "||" ZAMIAST "[]" - Jeśli mamy macierz 2x2 to wystarczy równanie a11*a22-a12*a21, jeśli jednak mamy 3x3 to bierzemy "pod kątem"liczby najpierw od lewej do prawej mnożymy wszystkie ze sobą na skos i dodajemy a potem to samo ale z minusem, jeśli jednak mamy powyżej 3x3 musimy użyć rozwinięcia Laplace'a, względem wiersza skreślamy wiersz który nam jest niepotrzebny dodajemy każdą liczbę tego wiersza pomnożoną przez -1 do potęgi i+j (nr wiersza i kolumny w których stoi liczba) i razy wyznacznik macierzy która zostaje po wykreśleniu wiersza i kolumny w których stoi Liczba
 
 Wyznacznik macierzy schodkowej = pomnożone przez siebie liczby z przekątnej
+
+## Układy równań (z macierzami)
+
+M (macierz rozszerzona = [A|B]
+
+
 
 # Zadania z pracy domowej
 
@@ -91,6 +97,7 @@ Wyznacznik macierzy schodkowej = pomnożone przez siebie liczby z przekątnej
 | 15 str 49 | ⬜ Do zrobienia     |       |
 | 16 str 49 | ⬜ Do zrobienia     |       |
 | 18 str 50 | ⬜ Do zrobienia     |       |
+| 3  str 74 | ✅ Zrobione      	  |       |
 | 4  str 74 | ⬜ Do zrobienia     |Nie wiem jak zrobić|
 | 9  str 78 | ⚠️Błędy             |Nie wiem jak zrobić podpunkty b i c|
 | 11 str 78 | ✅ Zrobione      	  |       |
