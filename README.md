@@ -12,7 +12,7 @@
 | Tematy                       | Stan               | Uwagi |
 |:-----------------------------|:------------------:|:------|
 | Składanie funkcji            | ✅ Zrobione	     |Po prostu wstawianie pod x pierwszej funkcji całą drugą funkcję|
-| Różnowarotościowość          | ✅ Zrobione	     |f(x1)=\=f(x2) => f(x1)-f(x2)=\=0|
+| Różnowarotościowość          | ✅ Zrobione	     |f(x1)=/=f(x2) => f(x1)-f(x2)=/=0|
 | Funkcje odwrotne             | ⬜ Do zrobienia     |       |
 | Bijekcja                     | ⬜ Do zrobienia     |       |
 | Surrekcja                    | ⬜ Do zrobienia     |       |
@@ -57,7 +57,9 @@
 | Tematy                       | Stan               | Uwagi |
 |:-----------------------------|:------------------:|:------|
 | Metoda Gaussa                | ⬜ Do zrobienia     |       |
-| Wzory crammera               | ⬜ Do zrobienia     |       |
+| Metoda Macierzowa            | ⬜ Do zrobienia     |       |
+| Metoda Wyznacznikowa         | ⬜ Do zrobienia     |       |
+| Wzory Crammera               | ⬜ Do zrobienia     |       |
 <hr>
 
 # Notatki
@@ -76,9 +78,14 @@ Wyznacznik macierzy schodkowej = pomnożone przez siebie liczby z przekątnej
 
 ## Układy równań (z macierzami)
 
-M (macierz rozszerzona = [A|B]
+M (macierz rozszerzona = [A|B] , n liczba niewiadomych
 
+Jeśli: 
+- rzA=/=rzM - układ sprzeczny
+- rzA=rzM=n - układ oznaczony (jedno rozwiązanie)
+- rzA=rzM<n - układ nieoznaczony (nieskończenie wiele rozwiązań) (liczba parametrów rzA-n)
 
+Metoda Macierzowa - (można stosować gdy macierz kwadratowa i detA=/=0) X=A^-1·B
 
 # Zadania z pracy domowej
 
