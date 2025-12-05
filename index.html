@@ -40,8 +40,8 @@
         <h2>Przeglądarka plików</h2>
         <button id="back-button" onclick="goBack()">⬅ Wstecz</button>
         <ul id="file-list">Ładowanie...</ul>
-		<a href="https://drive.google.com/drive/folders/1Bg-S7LPdJ9He20yWToR_vP6Iq2oslM2m?usp=sharing" target="_blank" class="button">Link do dysku google</a>
-		<a href="/dyskretna.html">Matematyka dyskretna</a>
+		<a href="https://drive.google.com/drive/folders/1Bg-S7LPdJ9He20yWToR_vP6Iq2oslM2m?usp=sharing" target="_blank" class="button">- *Link do dysku google*</a>
+		<a href="/dyskretna.html">- *Matematyka dyskretna*</a>
 		<div id="readme-content" style="text-align: left; padding: 20px; background: #1e1e1e; color: white; border-radius: 10px;">Ładowanie...</div>
 
 		
@@ -62,7 +62,7 @@
         const backButton = document.getElementById("back-button");
 		async function fetchReadme() {
 			try {
-				const response = await fetch(`https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/dyskretna.md`);
+				const response = await fetch(`https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/README.md`);
 				if (!response.ok) throw new Error("Nie udało się pobrać README.md");
 				
 				const markdown = await response.text();
